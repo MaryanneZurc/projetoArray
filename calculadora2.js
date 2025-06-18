@@ -1,5 +1,10 @@
 let prompt = require('prompt-sync')();
+let senha = '12234';
+let senhalogin = prompt('Digite a senha:');
+if(senhalogin!==senha) {
 
+console.log('senha inválida');
+}else{
 console.log('====Calculadora Aritmética====')
 console.log('\n(1) somar');
 console.log('(2) subtrair');
@@ -35,7 +40,9 @@ switch (operacao){
         default:
         console.log('Não é possível executar essa operação');
     }
-    
+}
+
+
 
     
     
