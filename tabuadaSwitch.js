@@ -16,19 +16,19 @@ let numero = parseFloat(prompt('Escolha a tabuada:'));
     console.log(numero + ' + ' + i + ' = ' + (numero+i));
         }
     break;
-    case 'subtração':
+    case 'subtracao':
         for(let i=1; i<=10; i++){
     console.log(numero + ' - ' + i + ' = ' + (numero-i));
         }
     break;
-    case 'multiplicação':
+    case 'multiplicacao':
         for(let i=1; i<=10; i++){
     console.log(numero + ' * ' + i + ' = ' + (numero*i));
         }
     break;
-    case 'divisão':
+    case 'divisao':
         for(let i=1; i<=10; i++){
-    console.log(numero + ' - ' + i + ' = ' + (numero-i));
+    console.log(numero + ' / ' + i + ' = ' + (numero/i));
         }
         break;
         default:
